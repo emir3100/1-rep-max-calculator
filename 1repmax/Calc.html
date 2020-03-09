@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>1 Rep Max Calculator Bench</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:black;">
+    <center>
+        <h1>1 Rep Max Calculator</h1>
+        <h2>Bench Press</h2>
+        <br></br>
+        <p>
+            Lifted Weight:
+            <input type="text" id="weight" placeholder="weight">
+
+            <select id="metrics">
+                <option value="0">kg</option>
+                <option value="1">lbs</option>
+            </select>
+        </p>
+        <p>
+            Reps:
+            <select id="reps">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+            </select>
+
+            Strength Genetics:
+            <select id="sg" value="5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected="selected">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+        </p>
+        <br></br>
+        <button onclick="calculation()" class="button">CALCULATION</button>
+        <br></br>
+        <br></br>
+    </center>
+    <center>
+        <div class="rm">
+            <i id="rm">‎</i>
+        </div>
+    </center>
+
+    <div class="box" id="box">
+        <ul>
+            <center>
+                <li id="element0"></li>
+                <li id="element1"></li>
+                <li id="element2"></li>
+                <li id="element3"></li>
+                <li id="element4"></li>
+                <li id="element5"></li>
+                <li id="element6"></li>
+                <li id="element7"></li>
+                <li id="element8"></li>
+            </center>
+        </ul>
+    </div>
+
+    <div class="instructions">
+        <center>
+            <i class="h3">How To Use Strenght Genetics</i>
+            <br></br>
+            <p>1-4 = Bellow Avrage Strenght Genetics</p>
+            <p>5 = Avrage Strenght Genetics</p>
+            <p>6-10 = Above Avrage Strenght Genetics</p>
+        </center>
+    </div>
+
+    <div class="rules">
+        <center>
+            <i class="h3">Rules For Use</i>
+            <br></br>
+            <p>Negative values are not accepted</p>
+            <p>Values under 1 is not accepted</p>
+            <p>Values over 2000 is not accepted</p>
+        </center>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="Script1.js"></script>
+</html>

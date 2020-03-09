@@ -1,0 +1,91 @@
+p {
+    font-family: Courier;
+    color: red;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.h3 {
+    font-family: Courier;
+    color: red;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+li {
+    font-family: Courier;
+    color: red;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    list-style-type: none;
+    margin-left: -50px;
+}
+
+
+h1 {
+    font-family: Courier;
+    color: red;
+    font-size: 60px;
+    font-weight: 300;
+    font-style: italic;
+}
+h2 {
+    font-family: Courier;
+    color: #1df525;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.rm {
+    font-family: Courier;
+    color: #1df525;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.box {
+    width: 600px;
+    height: 240px;
+    border: 5px solid #1df525;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 100px 0 0 -300px;
+}
+.instructions {
+    width: 360px;
+    height: 300px;
+    border: 5px solid #1df525;
+    position: absolute;
+    top: 20%;
+    left: 78%;
+    margin: 0px 0 0 0px;
+}
+
+.rules {
+    width: 360px;
+    height: 300px;
+    border: 5px solid #1df525;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    margin: 0px 0 0 0px;
+}
+
+.button {
+    border: 1px solid #00ff21;
+    color: red;
+    background: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px
+}
